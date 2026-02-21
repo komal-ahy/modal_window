@@ -19,3 +19,7 @@ closeModal.addEventListener('click',function(){
     modal.classList.add('hidden');
     overlay.classList.add('hidden');
 })
+overlay.addEventListener('click',function(){
+    modal.classList.add('hidden');
+    overlay.classList.add('hidden');
+})
